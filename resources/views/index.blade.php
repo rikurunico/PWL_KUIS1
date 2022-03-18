@@ -9,7 +9,7 @@
         @include('layouts.topbar')
         @include('layouts.navbar')
 
-        @yield('contents.home')
+        @yield('content')
         
     <main id="main">
 
