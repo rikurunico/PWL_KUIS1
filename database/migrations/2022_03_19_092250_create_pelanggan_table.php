@@ -17,7 +17,6 @@ class CreatePelangganTable extends Migration
             $table->id();
             $table->string('nama');
             $table->string('source');
-            $table->timestamps();
         });
     }
 
