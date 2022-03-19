@@ -12,8 +12,8 @@ class Team extends Seeder
      * @return void
      */
     public function run()
-    
-        DB::table('Team')->insert(            
+    {
+        DB::table('Team')->insert([         
             [
             'nama' => 'PE',
             'source' => 'asset/img/tn-01.jpg'
@@ -25,6 +25,8 @@ class Team extends Seeder
         [
             'nama' => 'Nam tincidunt consectetur',
             'source' => 'asset/img/tn-01.jpg'
-        ],);
+        ]
+        ]);
     }
 }
+
