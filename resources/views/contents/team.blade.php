@@ -10,9 +10,9 @@
         <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             @foreach($team as $t)
             <div class="member">
             <div class="member-img">
@@ -29,14 +29,14 @@
                 <span>{{ $t-> jabatan}}</span>
             </div>
             </div>
-        </div>
-        <div>
-            <ul class="nav tm-paging-links"> 
-                <li class="nav-item"><a href="{{url('team?page=1')}}" class="nav-link tm-paging-link">1</a></li>
-                <li class="nav-item"><a href="{{url('team?page=2')}}" class="nav-link tm-paging-link">2</a></li>
-                <li class="nav-item"><a href="{{url('team?page=3')}}" class="nav-link tm-paging-link">3</a></li>
-                <li class="nav-item"><a href="{{url('team?page=4')}}" class="nav-link tm-paging-link">4</a></li>
-            </ul>
+            <div>
+                <ul class="nav tm-paging-links"> 
+                    <li class="nav-item"><a href="{{url('team?page=1')}}" class="nav-link tm-paging-link">1</a></li>
+                    <li class="nav-item"><a href="{{url('team?page=2')}}" class="nav-link tm-paging-link">2</a></li>
+                    <li class="nav-item"><a href="{{url('team?page=3')}}" class="nav-link tm-paging-link">3</a></li>
+                    <li class="nav-item"><a href="{{url('team?page=4')}}" class="nav-link tm-paging-link">4</a></li>
+                </ul>
+            </div>
         </div>
         @endforeach
     </div>
@@ -76,7 +76,7 @@
             <div class="col-lg-6">
 
                 <div class="progress">
-                <span class="skill">PHP <i class="val">80%</i></span>
+                <span class="skill">PHP<i class="val">80%</i></span>
                 <div class="progress-bar-wrap">
                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
