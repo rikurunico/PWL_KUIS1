@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MoreDetailsController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\TeamController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,4 +23,9 @@ Route::get('/home', [HomeController::class, 'index']);
 Route::get('/more-details', [MoreDetailsController::class, 'index'])->name('more-details');
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/services', [ServicesController::class, 'index']);
+Route::get('/team', [TeamController::class, 'index']);
+
+Route::get('/', function () {
+    return view('index', ['title' => 'coba']);
+});
 
