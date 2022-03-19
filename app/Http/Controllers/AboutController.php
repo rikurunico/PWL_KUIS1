@@ -9,7 +9,7 @@ class AboutController extends Controller
     public function index()
     {
         return view('contents.about', [
-            'title' => 'about',
+            'title' => 'About',
         ]);
     }
 }
