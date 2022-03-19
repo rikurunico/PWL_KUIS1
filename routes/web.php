@@ -20,15 +20,14 @@ use App\Http\Controllers\TestiController;
 */
 
 // Route::get('/', [HomeController::class, 'index']);
+Route::get('/', function () {
+    return redirect('/home');
+});
+
 Route::get('/home', [HomeController::class, 'index']);
 Route::get('/more-details', [MoreDetailsController::class, 'index'])->name('more-details');
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/services', [ServicesController::class, 'index']);
 Route::get('/team', [TeamController::class, 'index']);
 Route::get('/portofolio', [TestiController::class, 'index']);
-
-
-Route::get('/', function () {
-    return view('index', ['title' => 'coba']);
-});
 
