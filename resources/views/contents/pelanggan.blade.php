@@ -20,7 +20,7 @@
                         <h6>{{$p->id}}</h6>
                     </td>
                     <td>
-                        <div class="d-flex align-items-center"><img class="rounded-circle" src="{{asset($p->source)}}" width="30"><span class="ml-2">{{$p->nama}}</span></div>
+                        <div class="d-flex align-items-center"><img class="rounded-circle" src="{{asset($p->source)}}" width="30"><span class="ml-2" style="margin-left:10px">{{$p->nama}}</span></div>
                     </td>
                     <td>{{$p -> alamat}}<br></td>
                     <td class="font-weight-bold">Rp {{$p->totalpembelian}}</td>
