@@ -1,146 +1,58 @@
 @extends('index')
 @section('content')
-<section class="ftco-section">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Table #05</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="table-wrap">
-						<table class="table table-responsive-xl">
-						  <thead>
-						    <tr>
-						    	<th>&nbsp;</th>
-						    	<th>Email</th>
-						      <th>Username</th>
-						      <th>Status</th>
-						      <th>&nbsp;</th>
-						    </tr>
-						  </thead>
-						  <tbody>
-						    <tr class="alert" role="alert">
-						    	<td>
-						    		<label class="checkbox-wrap checkbox-primary">
-										  <input type="checkbox" checked>
-										  <span class="checkmark"></span>
-										</label>
-						    	</td>
-						      <td class="d-flex align-items-center">
-            
-						      	<div class="img" style="background-image: url('pcc.png');"></div>
-						      	<div class="pl-3 email">
-						      		<span>markotto@email.com</span>
-						      		<span>Added: 01/03/2020</span>
-						      	</div>
-						      </td>
-						      <td>Markotto89</td>
-						      <td class="status"><span class="active">Active</span></td>
-						      <td>
-						      	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				            	<span aria-hidden="true"><i class="fa fa-close"></i></span>
-				          	</button>
-				        	</td>
-						    </tr>
-						    <tr class="alert" role="alert">
-						    	<td>
-						    		<label class="checkbox-wrap checkbox-primary">
-										  <input type="checkbox">
-										  <span class="checkmark"></span>
-										</label>
-						    	</td>
-						      <td class="d-flex align-items-center">
-						      	<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-						      	<div class="pl-3 email">
-						      		<span>jacobthornton@email.com</span>
-						      		<span>Added: 01/03/2020</span>
-						      	</div>
-						      </td>
-						      <td>Jacobthornton</td>
-						      <td class="status"><span class="waiting">Waiting for Resassignment</span></td>
-						      <td>
-						      	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				            	<span aria-hidden="true"><i class="fa fa-close"></i></span>
-				          	</button>
-				        	</td>
-						    </tr>
-						    <tr class="alert" role="alert">
-						    	<td>
-						    		<label class="checkbox-wrap checkbox-primary">
-										  <input type="checkbox">
-										  <span class="checkmark"></span>
-										</label>
-						    	</td>
-						      <td class="d-flex align-items-center">
-						      	<div class="img" style="background-image: url(images/person_3.jpg);"></div>
-						      	<div class="pl-3 email">
-						      		<span>larrybird@email.com</span>
-						      		<span>Added: 01/03/2020</span>
-						      	</div>
-						      </td>
-						      <td>Larry_bird</td>
-						      <td class="status"><span class="active">Active</span></td>
-						      <td>
-						      	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				            	<span aria-hidden="true"><i class="fa fa-close"></i></span>
-				          	</button>
-				        	</td>
-						    </tr>
-						    <tr class="alert" role="alert">
-						    	<td>
-						    		<label class="checkbox-wrap checkbox-primary">
-										  <input type="checkbox">
-										  <span class="checkmark"></span>
-										</label>
-						    	</td>
-						      <td class="d-flex align-items-center">
-						      	<div class="img" style="background-image: url(images/person_4.jpg);"></div>
-						      	<div class="pl-3 email">
-						      		<span>johndoe@email.com</span>
-						      		<span>Added: 01/03/2020</span>
-						      	</div>
-						      </td>
-						      <td>Johndoe1990</td>
-						      <td class="status"><span class="active">Active</span></td>
-						      <td>
-						      	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				            	<span aria-hidden="true"><i class="fa fa-close"></i></span>
-				          	</button>
-				        	</td>
-						    </tr>
-						    <tr class="alert" role="alert">
-						    	<td class="border-bottom-0">
-						    		<label class="checkbox-wrap checkbox-primary">
-										  <input type="checkbox">
-										  <span class="checkmark"></span>
-										</label>
-						    	</td>
-						      <td class="d-flex align-items-center border-bottom-0">
-						      	<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-						      	<div class="pl-3 email">
-						      		<span>garybird@email.com</span>
-						      		<span>Added: 01/03/2020</span>
-						      	</div>
-						      </td>
-						      <td class="border-bottom-0">Garybird_2020</td>
-						      <td class="status border-bottom-0"><span class="waiting">Waiting for Resassignment</span></td>
-						      <td class="border-bottom-0">
-						      	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				            	<span aria-hidden="true"><i class="fa fa-close"></i></span>
-				          	</button>
-				        	</td>
-						    </tr>
-						  </tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-    <script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+<section> 
+	<div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table table-hover table table-striped">
+            <thead>
+                <tr>
+                    <th colspan="2">Title</th>
+                    <th>Owner</th>
+                    <th>Updated</th>
+                    <th>Status</th>
+                    <th>Type</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <h6>Fasinating tactic that can help in business</h6>
+                    </td>
+                    <td>
+                        <div class="d-flex align-items-center"><img class="rounded-circle" src="{{asset('template\assets\img\team\team-2.jpg')}}" width="30"><span class="ml-2">Christan M.</span></div>
+                    </td>
+                    <td>18 Mar, 2020<br></td>
+                    <td class="font-weight-bold">Published</td>
+                    <td>Business</td>
+                    <td><i class="fa fa-external-link external-link"></i></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h6>Fasinating tactic that can help in business</h6>
+                    </td>
+                    <td>
+                        <div class="d-flex align-items-center"><img class="rounded-circle" src="{{asset('template\assets\img\team\team-1.jpg')}}" width="30"><span class="ml-2">Christan M.</span></div>
+                    </td>
+                    <td>18 Mar, 2020<br></td>
+                    <td class="font-weight-bold">Published</td>
+                    <td>Business</td>
+                    <td><i class="fa fa-external-link external-link"></i></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h6>Fasinating tactic that can help in business</h6>
+                    </td>
+                    <td>
+                        <div class="d-flex align-items-center"><img class="rounded-circle" src="{{asset('template\assets\img\team\team-4.jpg')}}" width="30"><span class="ml-2">Christan M.</span></div>
+                    </td>
+                    <td>18 Mar, 2020<br></td>
+                    <td class="font-weight-bold">Published</td>
+                    <td>Business</td>
+                    <td><i class="fa fa-external-link external-link"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
             @endsection

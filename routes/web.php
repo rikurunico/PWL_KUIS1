@@ -35,3 +35,4 @@ Route::prefix('portofolio')->group(function () {
     Route::get('/more-details', [MoreDetailsController::class, 'index'])->name('more-details');
 });
 
+
