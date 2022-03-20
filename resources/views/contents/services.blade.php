@@ -5,12 +5,40 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <h3>Check our <span>Services</span></h3>
+          <h2>Stuff</h2>
+          <h3>Check our <span>stuff</span></h3>
           <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
 
-        <div class="row">
+        <table class="table table-image">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Stuff Image</th>
+              <th scope="col">Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach($barang as $st)
+            <tr>
+              <th scope="row">{{$st -> id}}</th>
+              <td class="w-25">
+                <img src="{{$st -> gambar}}" class="img-fluid img-thumbnail" alt="Sheep">
+              </td>
+              <td>{{$st -> nama}}</td>
+              <td>{{$st -> deskripsi}}</td>
+              <td>{{$st -> harga}}</td>
+            </tr>
+            @endforeach
+          </tbody>
+        </table>
+        <div class="d-flex justify-content-center">
+          {!! $barang->links() !!}
+      </div>
+
+      {{-- <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
@@ -37,7 +65,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
+              <div class="icon"><i class  ="bx bx-world"></i></div>
               <h4><a href="">Nemo Enim</a></h4>
               <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
@@ -58,9 +86,7 @@
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>
-
-        </div>
-
+        </div> --}}
       </div>
     </section><!-- End Services Section -->
     @endsection

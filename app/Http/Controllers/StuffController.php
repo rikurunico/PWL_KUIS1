@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Barang;
 
-class ServicesController extends Controller
+class StuffController extends Controller
 {
     public function index()
     {
+        $barang = Barang::paginate(3);
         return view('contents.services', [
-            'title' => 'Services',
+            'title' => 'Stuff',
+            'barang'=> $barang
         ]);
     }
 }
