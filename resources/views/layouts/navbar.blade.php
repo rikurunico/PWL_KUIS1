@@ -8,9 +8,9 @@
         <li><a class="nav-link scrollto {{ ($title === "Home") ? 'active' : ''}}" href="{{url('home')}}">Home</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Supplier") ? 'active' : ''}}" href="{{url('supplier')}}">Supplier</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Stuff") ? 'active' : ''}}" href="{{url('stuff')}}">Stuff</a></li>
+        <li><a class="nav-link scrollto {{ ($title === "Pelanggan") ? 'active' : ''}}" href="{{url('pelanggan')}}">Pelanggan</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Portofolio") ? 'active' : ''}} " href="{{url('portofolio')}}">Portfolio</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Team") ? 'active' : ''}}" href="{{url('team')}}">Team</a></li>
-        <li><a class="nav-link scrollto {{ ($title === "Pelanggan") ? 'active' : ''}}" href="{{url('pelanggan')}}">Pelanggan</a></li>
     </nav><!-- .navbar -->
 
     </div>
