@@ -30,8 +30,10 @@
         </div>
     </div>
     @endforeach
-    {{ $team->links() }}
     </div>
+</div>
+<div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+    {!! $team->links() !!}
 </div>
 </section><!-- End Team Section -->
 
