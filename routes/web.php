@@ -6,7 +6,7 @@ use App\Http\Controllers\MoreDetailsController;
 use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\StuffController;
 use App\Http\Controllers\TeamController;
-use App\Http\Controllers\TestiController;
+use App\Http\Controllers\PortofolioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +25,11 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [HomeController::class, 'index']);
-Route::get('/more-details', [MoreDetailsController::class, 'index'])->name('more-details');
 Route::get('/supplier', [SupplierController::class, 'index']);
 Route::get('/stuff', [StuffController::class, 'index']);
 Route::get('/team', [TeamController::class, 'index']);
-Route::get('/portofolio', [TestiController::class, 'index']);
+Route::get('/portofolio', [PortofolioController::class, 'index']);
+Route::prefix('portofolio')->group(function () {
+    Route::get('/more-details', [MoreDetailsController::class, 'index'])->name('more-details');
+});
 
