@@ -10,7 +10,7 @@ class StuffController extends Controller
     public function index()
     {
         $barang = Barang::paginate(3);
-        return view('contents.services', [
+        return view('contents.stuff', [
             'title' => 'Stuff',
             'barang'=> $barang
         ]);
