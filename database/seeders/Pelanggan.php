@@ -16,15 +16,9 @@ class Pelanggan extends Seeder
         DB::table('pelanggan')->insert(            
             [
             'nama' => 'Nam tincidunt consectetur',
-            'source' => 'asset/img/tn-01.jpg'
-        ],
-        [
-            'nama' => 'Nam tincidunt consectetur',
-            'source' => 'asset/img/tn-01.jpg'
-        ],
-        [
-            'nama' => 'Nam tincidunt consectetur',
-            'source' => 'asset/img/tn-01.jpg'
-        ],);
+            'source' => 'asset/img/tn-01.jpg',
+            'deskripsi' => 'UWU DEMUWU',
+            'totalpembelian' => ''
+        ]);
     }
 }

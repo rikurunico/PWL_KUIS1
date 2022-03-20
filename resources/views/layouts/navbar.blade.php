@@ -6,7 +6,7 @@
     <nav id="navbar" class="navbar">
         <ul>
         <li><a class="nav-link scrollto {{ ($title === "Home") ? 'active' : ''}}" href="{{url('home')}}">Home</a></li>
-        <li><a class="nav-link scrollto {{ ($title === "About") ? 'active' : ''}}" href="{{url('about')}}">About</a></li>
+        <li><a class="nav-link scrollto {{ ($title === "Supplier") ? 'active' : ''}}" href="{{url('supplier')}}">Supplier</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Stuff") ? 'active' : ''}}" href="{{url('stuff')}}">Stuff</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Portofolio") ? 'active' : ''}} " href="{{url('portofolio')}}">Portfolio</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Team") ? 'active' : ''}}" href="{{url('team')}}">Team</a></li>

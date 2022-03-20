@@ -17,6 +17,9 @@ class CreatePelangganTable extends Migration
             $table->id();
             $table->string('nama');
             $table->string('source');
+            $table->string('alamat');
+            $table->integer('totalpembelian');
+
         });
     }
 

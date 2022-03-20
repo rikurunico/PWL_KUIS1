@@ -17,7 +17,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             Team::class,
-            Barang::class
+            Barang::class,
+            Supplier::class
         ]);
     }
 }

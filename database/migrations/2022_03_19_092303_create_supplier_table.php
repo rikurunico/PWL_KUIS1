@@ -17,7 +17,9 @@ class CreateSupplierTable extends Migration
             $table->id();
             $table->string('nama');
             $table->string('source');
-            
+            $table->string('deskripsi1')->nullable();
+            $table->string('deskripsi2')->nullable();
+            $table->string('deskripsi3')->nullable();
         });
     }
 
