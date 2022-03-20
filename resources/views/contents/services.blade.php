@@ -25,7 +25,7 @@
             <tr>
               <th scope="row">{{$st -> id}}</th>
               <td class="w-25">
-                <img src="{{$st -> gambar}}" class="img-fluid img-thumbnail" alt="Sheep">
+                <img src="{{ asset($st -> gambar)}}" class="img-fluid img-thumbnail" alt="Sheep">
               </td>
               <td>{{$st -> nama}}</td>
               <td>{{$st -> deskripsi}}</td>
