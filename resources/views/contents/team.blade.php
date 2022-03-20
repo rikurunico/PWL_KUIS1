@@ -11,9 +11,8 @@
         </div>
 
         <div class="row justify-content-center">
-
-        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             @foreach($team as $t)
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
             <div class="member-img">
                 <img src="{{asset($t->source)}}" class="img-fluid" alt="">
@@ -28,19 +27,14 @@
                 <h4>{{ $t -> nama}}</h4>
                 <span>{{ $t-> jabatan}}</span>
             </div>
-            </div>
-            <div>
-                <ul class="nav tm-paging-links"> 
-                    <li class="nav-item"><a href="{{url('team?page=1')}}" class="nav-link tm-paging-link">1</a></li>
-                    <li class="nav-item"><a href="{{url('team?page=2')}}" class="nav-link tm-paging-link">2</a></li>
-                    <li class="nav-item"><a href="{{url('team?page=3')}}" class="nav-link tm-paging-link">3</a></li>
-                    <li class="nav-item"><a href="{{url('team?page=4')}}" class="nav-link tm-paging-link">4</a></li>
-                </ul>
-            </div>
         </div>
-        @endforeach
     </div>
-    </section><!-- End Team Section -->
+    @endforeach
+    {{ $team->links() }}
+    </div>
+</div>
+</section><!-- End Team Section -->
+
 
     <!-- ======= Skills Section ======= -->
         <section id="skills" class="skills">

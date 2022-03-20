@@ -9,7 +9,7 @@ class TeamController extends Controller
 {
     public function index()
     {   
-        $team = Team::paginate(1);
+        $team = Team::paginate(2);
         return view('contents.team', [
             'title' => 'Team',
             'team' => $team
