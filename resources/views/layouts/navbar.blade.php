@@ -10,6 +10,7 @@
         <li><a class="nav-link scrollto {{ ($title === "Stuff") ? 'active' : ''}}" href="{{url('stuff')}}">Stuff</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Portofolio") ? 'active' : ''}} " href="{{url('portofolio')}}">Portfolio</a></li>
         <li><a class="nav-link scrollto {{ ($title === "Team") ? 'active' : ''}}" href="{{url('team')}}">Team</a></li>
+        <li><a class="nav-link scrollto {{ ($title === "Pelanggan") ? 'active' : ''}}" href="{{url('pelanggan')}}">pelanggan</a></li>
     </nav><!-- .navbar -->
 
     </div>
