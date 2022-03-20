@@ -25,7 +25,7 @@
               <li>
                 <i class="bx bx-images"></i>
                 <div>
-                  <h5>{{$sup -> deskripsi2}}COBA</h5>
+                  <h5>{{$sup -> deskripsi2}}</h5>
                   <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
                 </div>
               </li>

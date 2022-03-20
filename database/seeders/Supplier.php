@@ -19,7 +19,7 @@ class Supplier extends Seeder
             'nama' => 'Microsoft ',
             'source' => 'template/assets/img/Supplier/Microsoft-removebg.png',
             'deskripsi1' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, modi!',
-            'deskripsi2' => '            Lorem ipsum dolor sit amet.',
+            'deskripsi2' => 'Lorem ipsum dolor sit amet.',
             'deskripsi3' => 'LOREM ME'
             ],
             [
@@ -27,7 +27,7 @@ class Supplier extends Seeder
                 'source' => 'template/assets/img/Supplier/Microsoft.png',
                 'deskripsi1' => 'Loren 50',
                 'deskripsi2' => 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, modi!.',
-                'deskripsi3' => 'C'
+                'deskripsi3' => 'Lorem kedua'
                 ],
     ]);
     }
