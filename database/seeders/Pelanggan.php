@@ -36,6 +36,41 @@ class Pelanggan extends Seeder
                     'source' => 'template/assets/img/Pelanggan/person_4.jpg',
                     'alamat' => 'Pandaan',
                     'totalpembelian' => 180000
+                ],[
+                    'nama' => 'Mark',
+                    'source' => 'template/assets/img/Pelanggan/person_5.jpg',
+                    'alamat' => 'Jember',
+                    'totalpembelian' => 180000
+                ],[
+                    'nama' => 'Puttin',
+                    'source' => 'template/assets/img/Pelanggan/person_6.jpeg',
+                    'alamat' => 'Rushian',
+                    'totalpembelian' => 1800006
+                ],[
+                    'nama' => 'Aib',
+                    'source' => 'template/assets/img/Pelanggan/person_7.jpeg',
+                    'alamat' => 'Sidoarjo',
+                    'totalpembelian' => 1800005
+                ],[
+                    'nama' => 'Bia',
+                    'source' => 'template/assets/img/Pelanggan/person_8.jpg',
+                    'alamat' => 'Makasar',
+                    'totalpembelian' => 1800003
+                ],[
+                    'nama' => 'Ricoco',
+                    'source' => 'template/assets/img/Pelanggan/person_9.jpg',
+                    'alamat' => 'Jakarta',
+                    'totalpembelian' => 1800004
+                ],[
+                    'nama' => 'Ricoka',
+                    'source' => 'template/assets/img/Pelanggan/person_10.jpg',
+                    'alamat' => 'Jakarta',
+                    'totalpembelian' => 18000099
+                ],[
+                    'nama' => 'Ricoyo',
+                    'source' => 'template/assets/img/Pelanggan/person_11.jpg',
+                    'alamat' => 'Jakarta',
+                    'totalpembelian' => 1800000
                 ]
         ]);
     }

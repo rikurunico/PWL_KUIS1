@@ -28,6 +28,10 @@
                 @endforeach
             </tbody>
         </table>
+        <div class="d-flex justify-content-start">
+        {{$pelanggan->links()}}
+        </div>
+
     </div>
 </div>
             @endsection

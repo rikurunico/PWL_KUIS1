@@ -29,7 +29,7 @@
               </td>
               <td>{{$st -> nama}}</td>
               <td>{{$st -> deskripsi}}</td>
-              <td>{{$st -> harga}}</td>
+              <td>Rp.{{$st -> harga}}</td>
             </tr>
             @endforeach
           </tbody>

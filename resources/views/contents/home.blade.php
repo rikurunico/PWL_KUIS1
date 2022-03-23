@@ -6,7 +6,7 @@
       <h1>Welcome to <span>BizLand</span></h1>
       <h2>We are team of talented designers making websites with Bootstrap</h2>
       <div class="d-flex">
-        <a href="{{ url('about')}}" class="btn-get-started scrollto">Get Started</a>
+        <a href="{{ url('supplier')}}" class="btn-get-started scrollto">Get Started</a>
         <a href="#" class="glightbox btn-watch-video" onClick='alert("Belum Ada Videonya Bang")'><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
       </div>
     </div>

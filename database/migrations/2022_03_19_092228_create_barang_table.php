@@ -18,7 +18,7 @@ class CreateBarangTable extends Migration
             $table->string('nama');
             $table->string('deskripsi');
             $table->string('gambar');
-            $table->string('harga');
+            $table->integer('harga');
         });
     }
 

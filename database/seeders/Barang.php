@@ -20,32 +20,32 @@ class Barang extends Seeder
                     'nama' => 'Rexus Daxa M84 Pro V1',
                     'deskripsi' => 'Nam tincidunt consectetur',
                     'gambar' => 'template/assets/img/stuff/stuff_1.jpg',
-                    'harga' => 'Rp. 1.000.000'
+                    'harga' => 100000
                 ],[
                     'nama' => 'Rexus Daxa M84 Pro V2',
                     'deskripsi' => 'Nam tincidunt consectetur',
                     'gambar' => 'template/assets/img/stuff/stuff_2.jpg',
-                    'harga' => 'Rp. 1.000.000'
+                    'harga' => 100000
                 ],[
                     'nama' => 'Rexus Daxa M84 Pro V3',
                     'deskripsi' => 'Nam tincidunt consectetur',
                     'gambar' => 'template/assets/img/stuff/stuff_3.jpg',
-                    'harga' => 'Rp. 1.000.000'
+                    'harga' => 100000
                 ],[
                     'nama' => 'Rexus Daxa M84 Pro V4',
                     'deskripsi' => 'Nam tincidunt consectetur',
                     'gambar' => 'template/assets/img/stuff/stuff_4.jpg',
-                    'harga' => 'Rp. 1.000.000'
+                    'harga' => 100000
                 ],[
                     'nama' => 'Rexus Daxa M84 Pro V5',
                     'deskripsi' => 'Nam tincidunt consectetur',
                     'gambar' => 'template/assets/img/stuff/stuff_5.jpg',
-                    'harga' => 'Rp. 1.000.000'
+                    'harga' => 100000
                 ],[
                     'nama' => 'Rexus Daxa M84 Pro V6',
                     'deskripsi' => 'Nam tincidunt consectetur',
                     'gambar' => 'template/assets/img/stuff/stuff_6.jpg',
-                    'harga' => 'Rp. 1.000.000'
+                    'harga' => 100000
             ]
         ]);
     }

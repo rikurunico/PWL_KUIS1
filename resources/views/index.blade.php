@@ -11,11 +11,6 @@
 
         @yield('content')
         
-    <main id="main">
-
-        
-
-    </main><!-- End #main -->
 
     @include('layouts.footer')
     </body>

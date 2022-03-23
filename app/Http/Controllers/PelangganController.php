@@ -9,7 +9,7 @@ class PelangganController extends Controller
 {
     public function index()
     {
-        $pelanggan = Pelanggan::all();
+        $pelanggan = Pelanggan::paginate(5);
         return view('contents.pelanggan', [
             'title' => 'Pelanggan',
             'pelanggan' => $pelanggan
